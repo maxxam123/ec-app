@@ -82,19 +82,19 @@ const Slider = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   const [product, setProduct] = useState([]);
 
-  useEffect(() => {
-    const getProduct = async () => {
-      try {
-        const res = await axios.get('http://localhost:5000/api/product1');
-        setProduct(res.data);
-      } catch (err) {}
-    };
-    getProduct();
-  }, []);
+  // useEffect(() => {
+  //   const getProduct = async () => {
+  //     try {
+  //       const res = await axios.get('http://localhost:5000/api/product1');
+  //       setProduct(res.data);
+  //     } catch (err) {}
+  //   };
+  //   getProduct();
+  // }, []);
 
   // console.log(product.length);
-  const test = product.length - 1;
-  console.log(test);
+  // const test = product.length - 1;
+  // console.log(test);
 
   const handleClick = (direction) => {
     if (direction === 'left') {
@@ -113,7 +113,7 @@ const Slider = () => {
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
         {/* {product.map((item) => ( */}
-        //{' '}
+        {/* {' '} */}
         {sliderItems.map((item) => (
           <Slide key={item._id}>
             {/* <Slide bg={item.bg} key={item.id}> */}
