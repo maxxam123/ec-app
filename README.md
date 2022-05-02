@@ -67,3 +67,9 @@ Products.jsx deactivated reading from DB, activated local data.js
 Home.jsx involved <NewsLetter/>
 
 components added NewsLetter.jsx
+
+9.
+
+Home.jsx involved <Footer/>
+
+components added Footer.jsx
