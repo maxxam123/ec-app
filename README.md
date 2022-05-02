@@ -41,3 +41,25 @@ Slider.jsx prepared all
 src added data.js
 
 npm install axios
+
+6.
+
+Home.jsx involved <Categories/>
+
+components added Categories.jsx & CategoryItem.jsx
+
+CategoryItem.jsx reactivated LINK
+
+7.
+
+Home.jsx involved <Products/>
+
+components added Products.jsx
+
+components added Product.jsx
+
+Product.jsx deactivated LINK
+
+Products.jsx deactivated reading from DB, activated local data.js
+
+8.
