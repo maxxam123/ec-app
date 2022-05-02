@@ -63,3 +63,7 @@ Product.jsx deactivated LINK
 Products.jsx deactivated reading from DB, activated local data.js
 
 8.
+
+Home.jsx involved <NewsLetter/>
+
+components added NewsLetter.jsx
