@@ -6,6 +6,7 @@ import {
   Redirect,
 } from 'react-router-dom';
 import ProductList from './pages/ProductList';
+import Product from './pages/Product';
 
 const App = () => {
   return (
@@ -16,6 +17,9 @@ const App = () => {
         </Route>
         <Route path="/products/:category">
           <ProductList />
+        </Route>
+        <Route path="/product/:id">
+          <Product />
         </Route>
       </Switch>
     </Router>

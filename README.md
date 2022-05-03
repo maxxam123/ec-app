@@ -73,3 +73,15 @@ components added NewsLetter.jsx
 Home.jsx involved <Footer/>
 
 components added Footer.jsx
+
+10.
+
+App.js import BrowserRouter as Router ...
+
+App.js involved <ProductList/>
+
+pages added ProductList.jsx
+
+CategoryItem.jsx activated LINK /Products
+
+11.

@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import styled from 'styled-components';
-import Announcement from '../components/Announcement';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-import NewsLetter from '../components/NewsLetter';
+// import Announcement from '../components/Announcement';
+// import Footer from '../components/Footer';
+// import Navbar from '../components/Navbar';
+// import NewsLetter from '../components/NewsLetter';
 import Products from '../components/Products';
 
 const Container = styled.div``;
@@ -54,8 +54,8 @@ const ProductList = () => {
 
   return (
     <Container>
-      <Navbar />
-      <Announcement />
+      {/* <Navbar /> */}
+      {/* <Announcement /> */}
       <Title>Dresses</Title>
       <FilterContainer>
         <Filter>
@@ -88,8 +88,8 @@ const ProductList = () => {
         </Filter>
       </FilterContainer>
       <Products cat={cat} filters={filters} sort={sort} />
-      <NewsLetter />
-      <Footer />
+      {/* <NewsLetter /> */}
+      {/* <Footer /> */}
     </Container>
   );
 };
